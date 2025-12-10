@@ -1,0 +1,56 @@
+{
+    "2025-8-13": 
+	[
+        {
+			"start": "17:05", 
+			"end": "18:00", 
+			"name": "Moonlight Chest",
+			"type": "moonlight_event"
+		},
+        {
+			"start": "18:00", 
+			"end": "18:30", 
+			"name": "Double Boss",
+			"type": "double_boss_loot_event"
+		},
+		{
+			"start": "14:00", 
+			"end": "15:30", 
+			"name": "Dungeon Event",
+			"type": "dungeon_cooldown_event"
+		},
+		{
+			"start": "14:00", 
+			"end": "15:30", 
+			"name": "Tournament",
+			"type": "tournament_event"
+		}
+    ],
+	
+	
+	
+    "2024-11-05": 
+	[
+        {
+			"start": "09:00", 
+			"end": "10:30", 
+			"name": "Double Metin Loot",
+			"type": "double_metin_loot_event"
+		},
+        {
+			"start": "15:00",
+			"end": "16:00",
+			"name": "Bonus Event",
+			"type": "bonus_event"
+		}
+    ],
+    "2024-11-10": 
+	[
+        {
+			"start": "13:00",
+			"end": "14:00",
+			"name": "Item Drop Event",
+			"type": "item_drop_event"
+		}
+    ]
+}

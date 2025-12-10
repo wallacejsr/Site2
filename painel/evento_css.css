@@ -1,0 +1,47 @@
+/*
+ * Estilos para a barra de status de evento
+ */
+
+/* Estilo base, para o estado "Nenhum" e como padrão */
+.evento-status {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #1a1a1d; /* Um fundo escuro */
+    color: #c5c6c7; /* Cor do texto mais suave */
+    font-family: Arial, sans-serif; /* Fonte mais limpa que Times New Roman */
+    font-size: 16px;
+    border-radius: 8px; /* Cantos arredondados */
+    border: 2px solid #464a4e;
+    text-align: center;
+    transition: all 0.3s ease; /* Transição suave para mudanças */
+}
+
+/* Estilo para o texto "Evento ativo:" */
+.evento-status strong {
+    color: #ffffff; /* Deixa o rótulo branco e destacado */
+    font-weight: bold;
+}
+
+/* * Efeito especial quando um evento está ATIVO!
+ * Este estilo será aplicado quando o <div> tiver a classe "ativo"
+ */
+.evento-status.ativo {
+    background-color: #1c2a3a;
+    color: #66fcf1; /* Cor ciano para o nome do evento */
+    border-color: #66fcf1; /* Cor da borda combinando */
+    
+    /* Animação de brilho */
+    animation: glow-effect 1.5s infinite alternate;
+}
+
+/* Animação Keyframes para o efeito de brilho */
+@keyframes glow-effect {
+    from {
+        box-shadow: 0 0 5px #66fcf1, 0 0 10px #66fcf1, 0 0 15px #45a29e;
+        text-shadow: 0 0 3px #ffffff;
+    }
+    to {
+        box-shadow: 0 0 10px #66fcf1, 0 0 20px #45a29e, 0 0 30px #45a29e;
+        text-shadow: 0 0 5px #ffffff;
+    }
+}
